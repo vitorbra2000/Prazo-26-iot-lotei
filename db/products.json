@@ -1,1 +1,23 @@
-[{"id":1,"name":"Passarinho","description":"Um passarinho brabinho ...mas é um bom passaro","price":"300","image":"image-1574798477014.jpg"},{"id":2,"name":"Fantasias ","description":"Stitch e Banguela","price":"220","image":"image-1574798546196.jpg"},{"id":3,"name":"Mera rainha dos mares","description":"Acompanhante excelente \r\nestilo namoradinha princesa   (kkkk)","price":"99","image":"image-1574798612074.jpg"}]
+[
+    {
+        "id": 1,
+        "name": "Passarinho",
+        "description": "Um passarinho brabinho ...mas é um bom passaro",
+        "price": "300",
+        "image": "image-1574798477014.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Fantasias ",
+        "description": "Stitch e Banguela",
+        "price": "220",
+        "image": "image-1574798546196.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mera rainha dos mares",
+        "description": "Acompanhante excelente \r\nestilo namoradinha princesa   (kkkk)",
+        "price": "99",
+        "image": "image-1574798612074.jpg"
+    }
+]
