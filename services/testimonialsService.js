@@ -10,10 +10,10 @@ var getTestimonials = function() {
     },
     {
       id: 2,
-      name: 'Joaozinho',
+      name: 'paulao',
       company: 'Catolica SC',
-      title: 'Cara da Secretaria',
-      testimony: 'Eu tb gosto muito de javascript'
+      title: 'esquina',
+      testimony: 'Eu tb gosto do paulao'
     }
   ];
 

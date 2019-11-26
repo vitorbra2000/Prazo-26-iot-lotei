@@ -1,6 +1,42 @@
+body{
+    
+    background-image: url('../../images/artist_waves_colorful_129158_1920x1080.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+}
+.post-detail{
+    color: rgb(0, 0, 0);
+    background-image: url('../../images/ocean_aerial_view_surf_128968_1920x1080.jpg');
+    background-attachment: fixed;
+    background-size: 40%;
+    background-repeat: unset;
+    background-color: rgba(71, 52, 0, 0.589); 
+    text-align: center;      
+}
 .post-detail img {
     width: 800px;
-    height: 80px;
+    height: 480px;
+}
+
+.post-detail h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.card-body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.card-img-top {
+    width: 286px;
+    height: 200px;
 }
 
 .post-detail h1 {
@@ -38,6 +74,6 @@
     font-size: 24px;
     font-weight: bold;
 }
-body{
-    background-color: rgba(0, 122, 37, 0.849);
+.container{
+    background-color: rgba(39, 124, 0, 0.781);
 }

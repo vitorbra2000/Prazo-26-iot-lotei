@@ -26,10 +26,8 @@ router.get('/create', function (req, res, next) {
 
   var newsensors = {};
   newsensors.id = newId;
-  newsensors.title = req.body.title;
-  newsensors.image = req.file.filename;
-  newsensors.description = req.body.description;
-  newsensors.body = req.body.sensorsBody;
+  newsensors.title = req.body.sensorName;
+  newsensors.description = req.body.sensorDescription;
 
   sensoresService.savesensors(newsensors);
 
