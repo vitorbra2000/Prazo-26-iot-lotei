@@ -15,7 +15,7 @@ var verifyAuth = require('./middlewares/authMiddleware');
 var cartRouter = require('./routes/cart');
 var sensorsRouter = require('./routes/sensors');
 var actuatorsRouter = require('./routes/actuators');
-var adminSensorRoutes = require('./routes/admin/sensor')
+var adminSensorRoutes = require('./routes/admin/sensor');
 
 var app = express();
 
@@ -48,10 +48,11 @@ app.use('/sensors', sensorsRouter);
 app.use('/actuators', actuatorsRouter);
 app.use('/admin/sensor', adminSensorRoutes);
 
+
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
-});
+// app.use(function(req, res, next) {
+//   next(createError(404));
+// });
 
 // error handler
 app.use(function(err, req, res, next) {

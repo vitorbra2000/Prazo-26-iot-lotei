@@ -15,6 +15,7 @@ router.post('/:id/add', function(req, res, next) {
 
   devicesService.addMeasurement(sensorId, temperature, humidity)
   res.send(200);
+  res.redirect('/')
 });
 
 
