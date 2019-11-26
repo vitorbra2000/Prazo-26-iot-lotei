@@ -13,14 +13,19 @@
         <h1>Novo Sensor</h1>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-          <form action="create" method="POST" enctype="multipart/form-data">
-              <div class="form-group">
-                <label for="postTitle">Título</label>
-                <input name="title" type="text" class="form-control" id="postTitle" placeholder="Título do post">
-              </div>
-      </div>
+    <div class="col-md-12">
+      <form action="create" method="POST" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="Nomesensor">Nome</label>
+            <input name="title" type="text" class="form-control" id="sensorName" placeholder="Nome do Sensor">
+          </div>
+          <div class="form-group">
+            <label for="postDescription">Descrição</label>
+            <textarea name="description" type="text" class="form-control" id="postDescription" placeholder=""></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Salvar</button>
+        </form>
+  </div>
         
     </div>
   </div>
